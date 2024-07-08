@@ -1,0 +1,338 @@
+.section-padding {
+  padding: 40px 0px 40px 0px;
+}
+.word-red {
+  color: red;
+}
+.red-line img {
+  width: 50px;
+  height: 30px;
+}
+.red-button button {
+  background-color: red;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* main-heading */
+.main-heading {
+  text-align: center;
+  padding: 0px 90px 0px 90px;
+  position: relative;
+}
+.main-heading h4,
+h3 {
+  font-weight: bold;
+}
+.main-heading::after {
+  position: absolute;
+  border: 1px solid black;
+  width: 5px;
+  height: 1px;
+  background-color: red;
+  color: red;
+}
+/* h3 and p */
+.heading-paragraph h3 {
+  margin-top: 5px;
+  font-size: 15px;
+  line-height: 15px;
+}
+.heading-paragraph p {
+  line-height: 20px;
+  font-size: 13px;
+  color: rgb(98, 96, 96);
+}
+/* hero-section */
+#hero-section {
+  background-image: url(img/home-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-head {
+  padding: 14em 0px 8em 3px;
+  color: white;
+}
+.hero-body {
+  padding: 10em 20px 8em 20px;
+}
+.form-body {
+  text-align: center;
+  color: rgb(103, 93, 93);
+}
+.hero-body form {
+  border-bottom: 3px solid red;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+}
+/* Welcome-section */
+.welcome-head {
+  padding: 40px 0px 20px 0px;
+  text-align: right;
+}
+.welcome-head img {
+  width: 300px;
+}
+.welcome-body-box {
+  padding: 30px 20px 10px 20px;
+}
+.welcome-body-box h5 {
+  font-weight: bolder;
+}
+.welcome-cart {
+  display: flex;
+}
+.welcome-cart-head {
+  border-radius: 20px 3px 20px 3px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 203, 203);
+  align-items: center;
+  padding: 14px 12px 0px 19px;
+  margin: 5px 20px 5px 0px;
+  width: 55px;
+  height: 45px;
+  cursor: pointer;
+}
+.welcome-cart-head:hover {
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 2px 2px 2px 2px rgb(207, 203, 203);
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 14px 12px 0px 19px;
+  margin: 5px 20px 5px 0px;
+  width: 55px;
+  height: 45px;
+  transition: 0.5s ease-in-out;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.welcome-cart-head img {
+  width: 20px;
+}
+/* progress-section */
+#progress-section {
+  padding: 50px 0px 20px 0px;
+  background-image: url(img/counter-bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.progress-cart {
+  color: white;
+  text-align: center;
+  padding: 20px 0px 15px 0px;
+  border: 3px solid white;
+  border-radius: 35% 5px 35% 5px;
+  cursor: pointer;
+  margin: 5px 0px 5px 0px;
+}
+.progress-cart:hover {
+  color: white;
+  text-align: center;
+  padding: 20px 0px 15px 0px;
+  border-radius: 0px 0px 0px 0px;
+
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 5px 0px 5px 0px;
+}
+.progress-cart-head {
+  padding: 20px 10px 20px 10px;
+}
+/* Practice-section */
+.practice-section-cart {
+  text-align: center;
+  margin: 10px;
+  padding: 8px 10px 1px 10px;
+  box-shadow: 1px 2px 3px 1px rgb(164, 162, 162);
+}
+.practice-cart-head {
+  width: 100%;
+  box-shadow: 0px 3px 5px 1px rgb(221, 220, 220);
+  overflow: hidden;
+}
+.practice-cart-head img {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+.practice-cart-head img:hover {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+.practice-cart-body {
+  margin: 10px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+  border-top: 3px solid rgb(216, 208, 208);
+}
+/* service-section */
+#service-section {
+  background-color: rgb(252, 252, 250);
+}
+.service-cart {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 1px 3px 0px rgb(164, 162, 162);
+  padding: 30px 10px 30px 10px;
+  margin: 15px 0px 15px 0px;
+}
+.service-cart-head {
+  border-radius: 30px 2px 30px 2px;
+  border: 2px solid red;
+  color: red;
+  text-align: center;
+  padding: 23px 10px 0px 10px;
+  width: 70px;
+  height: 65px;
+  cursor: pointer;
+}
+.service-cart-head:hover {
+  border-radius: 2px 30px 2px 30px;
+  border: 2px solid red;
+  text-align: center;
+  background-color: red;
+  color: white;
+  padding: 23px 10px 0px 10px;
+  width: 70px;
+  height: 65px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.service-cart-head img {
+  width: 20px;
+}
+.service-cart-body {
+  padding: 15px 0px 0px 0px;
+}
+/* team-section */
+.team-section-cart {
+  padding: 0px 0px 10px 0px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 1px 3px 0px rgb(164, 162, 162);
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.team-cart-head img {
+  width: 100%;
+}
+.team-cart-body {
+  text-align: center;
+  padding: 3px 0px 2px 0px;
+}
+.team-cart-body h4 {
+  font-size: 20px;
+}
+.team-cart-body h6 {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 3px;
+}
+.team-cart-body-icon {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 5px 0px;
+}
+.team-icon {
+  text-align: center;
+  width: 30px;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 5px 0px 0px;
+  color: white;
+  background-color: rgb(164, 161, 161);
+  border: 1px solid rgb(164, 161, 161);
+  cursor: pointer;
+}
+.team-icon:hover {
+  text-align: center;
+  width: 30px;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 5px 0px 0px;
+  background-color: black;
+  border: 1px solid rgb(164, 161, 161);
+  cursor: pointer;
+}
+/* contact-section */
+#contact-section {
+  background-color: rgb(171, 171, 167);
+}
+.contact-section-cart {
+  text-align: center;
+}
+.contact-cart-head button {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.contact-cart-head button:hover {
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  background-color: white;
+}
+/* Package-section */
+#package-section {
+  background-color: rgb(252, 252, 250);
+}
+.package-section-cart {
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 1px 3px 0px rgb(164, 162, 162);
+  margin: 15px 0px 15px 0px;
+}
+.package-section-cart-head {
+  margin: 0px 0px 20px 0px;
+}
+.package-section-cart h5 {
+  font-size: 22px;
+}
+.package-section-cart h2 {
+  font-weight: bold;
+}
+.package-section-cart h6 {
+  font-size: 13px;
+  color: rgb(109, 106, 106);
+}
+.package-section-cart p {
+  font-size: 12px;
+  color: rgb(109, 106, 106);
+  line-height: 5px;
+}
+/* free-section */
+.free-dummy-cart {
+  display: flex;
+  padding: 0px 90px 0px 0px;
+  margin: 15px 0px 0px 0px;
+  border-bottom: 3px solid rgb(198, 195, 195);
+}
+.free-dummy-cart-head {
+  border: 2px solid red;
+  color: red;
+  border-radius: 5px;
+  align-items: center;
+  padding: 7px 12px 0px 12px;
+  margin: 5px 20px 5px 0px;
+  width: 60px;
+  height: 50px;
+  cursor: pointer;
+}
+.free-dummy-cart-head img {
+  width: 20px;
+}
+/* footer */
+#footer {
+  padding: 50px 0px 50px 0px;
+  background-color: rgb(252, 252, 250);
+}
+.input-padding {
+  padding: 15px 0px 10px 0px;
+}
+.footer-content {
+  text-align: center;
+}
