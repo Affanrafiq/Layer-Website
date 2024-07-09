@@ -4,9 +4,8 @@
 .word-red {
   color: red;
 }
-.red-line img {
-  width: 50px;
-  height: 30px;
+.red-number {
+  color: red;
 }
 .red-button button {
   background-color: red;
@@ -17,25 +16,29 @@
 .main-heading {
   text-align: center;
   padding: 0px 90px 0px 90px;
-  position: relative;
 }
 .main-heading h4,
 h3 {
+  position: relative;
   font-weight: bold;
+  margin-bottom: 15px;
 }
-.main-heading::after {
-  position: absolute;
-  border: 1px solid black;
-  width: 5px;
-  height: 1px;
+.main-heading h4::before {
+  content: "";
+  width: 60px;
+  height: 2.5px;
   background-color: red;
-  color: red;
+  position: absolute;
+  bottom: -25%;
+  left: 45%;
 }
+
 /* h3 and p */
 .heading-paragraph h3 {
   margin-top: 5px;
   font-size: 15px;
   line-height: 15px;
+  margin-bottom: 15px;
 }
 .heading-paragraph p {
   line-height: 20px;
@@ -71,6 +74,7 @@ h3 {
   padding: 40px 0px 20px 0px;
   text-align: right;
 }
+
 .welcome-head img {
   width: 300px;
 }
@@ -79,6 +83,20 @@ h3 {
 }
 .welcome-body-box h5 {
   font-weight: bolder;
+  margin-bottom: 15px;
+  position: relative;
+}
+.global-heading {
+  color: red;
+}
+.global-heading::after {
+  content: "";
+  width: 60px;
+  height: 2.5px;
+  background-color: red;
+  position: absolute;
+  bottom: -30%;
+  left: 0px;
 }
 .welcome-cart {
   display: flex;
@@ -171,6 +189,18 @@ h3 {
 /* service-section */
 #service-section {
   background-color: rgb(252, 252, 250);
+}
+.service-heading {
+  position: relative;
+}
+.service-heading::before {
+  content: "";
+  width: 50px;
+  height: 2.5px;
+  background-color: red;
+  position: absolute;
+  bottom: -40%;
+  left: 15%;
 }
 .service-cart {
   display: flex;
@@ -325,13 +355,13 @@ h3 {
 .free-dummy-cart-head img {
   width: 20px;
 }
+.input-padding {
+  padding: 17px 0px 15px 0px;
+}
 /* footer */
 #footer {
   padding: 50px 0px 50px 0px;
   background-color: rgb(252, 252, 250);
-}
-.input-padding {
-  padding: 15px 0px 10px 0px;
 }
 .footer-content {
   text-align: center;
