@@ -32,7 +32,18 @@ h3 {
   bottom: -25%;
   left: 45%;
 }
-
+/* welcom-heading-paragraph */
+.welcom-heading-paragraph h3 {
+  font-weight: bold;
+  margin: 8px 0px 12px 0px;
+  font-size: 15px;
+  line-height: 0px;
+}
+.welcom-heading-paragraph p {
+  line-height: 15px;
+  font-size: 13px;
+  color: rgb(98, 96, 96);
+}
 /* h3 and p */
 .heading-paragraph h3 {
   margin-top: 5px;
